@@ -1,4 +1,4 @@
 # Design-Labs-INPROGRESS
 Design Labs PSD template
 
-link: https://mrroch.github.io/Design-Labs-INPROGRESS/
+live: https://mrroch.github.io/Design-Labs-INPROGRESS/
