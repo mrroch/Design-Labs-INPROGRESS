@@ -1,0 +1,24 @@
+{
+  "name": "design_labs",
+  "version": "1.0.0",
+  "description": "grunt_design_labs",
+  "main": "index.js",
+  "scripts": {
+    "test": "designlabs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "yes"
+  },
+  "keywords": [
+    "designlabs"
+  ],
+  "author": "michal_roch",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.7.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0"
+  }
+}

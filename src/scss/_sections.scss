@@ -1,0 +1,216 @@
+$base_color: #FFF;
+$common_color: #3C3C3C;
+$button_hover: #2F2F2F;
+.common__heading {
+  font-size: $font-size__xl;
+  font-weight: $weight_bold;
+  position: relative;
+  bottom: 50px;
+  left: 240px;
+  width: 402px;
+  text-transform: uppercase;
+  color: $common_color;
+  background-color: $base_color;
+}
+
+.heading__large {
+  font-size: $font-size__xl;
+  font-weight: $weight_bold;
+  text-transform: uppercase;
+}
+
+
+/* -------------- 
+        HERO 
+   -------------- */
+
+.hero {
+  background: url(../../img/jumbotron.jpg);
+  background-position: center;
+  height: 850px;
+  width: 100%;
+  text-align: center;
+  &__heading {
+    font-size: $font-size__max;
+    font-weight: $weight_bold;
+  }
+  &__text {
+    font-size: $font-size__s;
+    line-height: 29px;
+    text-transform: uppercase;
+  }
+  &__image {
+    margin: 80px auto;
+  }
+  &__logo {
+    margin: 50px auto;
+  }
+}
+
+
+/* -------------- 
+       ABOUT 
+   -------------- */
+
+.about {
+  height: 400px;
+  text-align: center;
+  margin-top: 146px;
+  margin-bottom: 146px;
+  &__text {
+    color: $common_color;
+    font-size: $font-size__m;
+    line-height: 24px;
+    margin: 0 150px;
+    padding-bottom: 53px;
+  }
+}
+
+
+/* -------------- 
+      SERVICES
+   -------------- */
+
+.services {
+  background-image: url(../../img/services.jpg);
+  background-position: center;
+  height: 488px;
+  text-align: center;
+  padding-top: 115px;
+  &__text {
+    margin-top: 64px;
+    font-size: $font-size__m;
+    font-weight: 300;
+    line-height: 26px;
+    margin: 0 168px;
+    padding-bottom: 56px;
+  }
+}
+
+
+/* -------------- 
+      WHAT WE DO 
+   -------------- */
+
+.what {
+  text-align: center;
+  margin-top: 105px;
+  &__image {
+    margin-top: 111px;
+    margin-bottom: 41px;
+  }
+  &__title {
+    color: $common_color;
+    font-size: $font-size__xm;
+    font-weight: $weight_bold;
+    text-transform: uppercase;
+    margin-bottom: 43px;
+  }
+  &__text {
+    color: $common-color;
+    font-size: $font-size__xs;
+    line-height: 26px;
+    padding: 0 160px;
+    &:nth-child(3) {
+      padding-bottom: 76px;
+    }
+  }
+}
+
+
+/* -------------- 
+        WORKS 
+   -------------- */
+
+.works {
+  margin: 140px 0;
+  &__heading {
+    padding-top: 140px;
+    margin-left: 5%;
+  }
+  &__image {
+    background-repeat: no-repeat;
+    height: 237px;
+    margin-bottom: 5px;
+    margin-right: 0.5%;
+    &:nth-child(3) {
+      margin-right: 0;
+    }
+    &:nth-child(6) {
+      margin-right: 0;
+    }
+    &--one {
+      background-image: url(../../img/topworks.jpg);
+      width: 30%
+    }
+    &--two {
+      background-image: url(../../img/join.jpg);
+      width: 39%
+    }
+    &--three {
+      background-image: url(../../img/market.jpg);
+      width: 30%
+    }
+    &--four {
+      background-image: url(../../img/worktop.jpg);
+      width: 30%
+    }
+    &--five {
+      background-image: url(../../img/lable.jpg);
+      width: 39%
+    }
+    &--six {
+      background-image: url(../../img/kyiv.jpg);
+      width: 30%
+    }
+  }
+}
+
+
+/* -------------- 
+      CONTACT 
+   -------------- */
+
+.contact {
+  text-align: center;
+  &__text {
+    color: $common_color;
+    font-size: $font-size__m;
+    line-height: 26px;
+    margin: 0 160px;
+  }
+  &__button {
+    font-size: $font-size__m;
+    width: 395px;
+    height: 58px;
+    margin-top: 42px;
+    margin-bottom: 51px;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: $base_color;
+    border: 2px solid $common_color;
+    background-color: $common_color;
+    &:hover {
+      background-color: $button_hover;
+    }
+  }
+}
+
+
+/* -------------- 
+       FOOTER 
+   -------------- */
+
+.copy {
+  margin-top: 77px;
+  margin-bottom: 40px;
+  text-align: center;
+  &__text {
+    color: $common_color;
+    font-size: $font-size__xs;
+  }
+  &__logo {
+    margin-top: 77px auto;
+    float: inherit;
+  }
+}

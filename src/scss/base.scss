@@ -1,0 +1,18 @@
+@import '_fonts';
+@import '_reset';
+@import '_sections';
+body {
+  margin: 0;
+  font-family: 'lato';
+  color: #FFF;
+}
+
+.container {
+  max-width: 902px;
+  margin: 0 auto;
+  border: 2px solid #3c3c3c;
+}
+
+* {
+  box-sizing: border-box;
+}
